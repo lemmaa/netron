@@ -140,7 +140,8 @@ class Application {
                     'pt', 'pth', 't7',
                     'pkl', 'joblib',
                     'pbtxt', 'prototxt',
-                    'cfg', 'xml' ] }
+                    'cfg', 'xml',
+                    'circle' ] }
             ]
         };
         const selectedFiles = electron.dialog.showOpenDialogSync(showOpenDialogOptions);

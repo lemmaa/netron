@@ -1341,6 +1341,7 @@ view.ModelFactoryService = class {
         this.register('./mlnet', [ '.zip' ]);
         this.register('./acuity', [ '.json' ]);
         this.register('./lightgbm', [ '.txt' ]);
+        this.register('./circle', [ '.circle' ]);
     }
 
     register(id, extensions) {
